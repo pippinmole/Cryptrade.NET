@@ -15,6 +15,7 @@ namespace CryptradeNotif {
 
         private static void Main(string[] args) => new Program().MainAsync().GetAwaiter().GetResult();
 
+        
         public Program() {
             // create the configuration
             _config = new ConfigurationBuilder()
