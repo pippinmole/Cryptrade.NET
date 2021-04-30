@@ -63,8 +63,7 @@ namespace CryptradeNotif.Services {
                 var tokenData = await this.GetTokenData(token.Address);
                 var watchedToken = this._tokenWatcher.GetWatchedToken(token.Address);
 
-                if ( watchedToken == null || tokenData == null )
-                    continue;
+                if ( watchedToken == null || tokenData == null ) continue;
 
                 if ( tokenData.PriceUsd > watchedToken.TargetPrice ) {
                     var embed = new EmbedBuilder() {
