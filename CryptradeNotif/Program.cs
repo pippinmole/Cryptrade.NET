@@ -46,8 +46,6 @@ namespace CryptradeNotif {
             await services.GetRequiredService<CommandHandler>().InitializeAsync();
             services.GetRequiredService<ITokenRequester>();
 
-            Console.WriteLine("helloooooooo");
-            
             await Task.Delay(-1);
         }
 
