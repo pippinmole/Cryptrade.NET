@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qWKwMJsN3gTDXZuqd/GRVIXxeH+LKJgaxEdZEZa+nLCcL+EU1zWC1el7KPJ/HkghnLoiqWX8kviYDvJXAaRQvw==",
+  "dgSpecHash": "CmQmhlQ6PFKO/6b0KKVK5wA5DJ/6gEis26dtNeUmnRIRbLJz4zJJAa3LnOvuWThcqfreOcjplZPH87azlKnpvA==",
   "success": true,
   "projectFilePath": "C:\\Users\\icond\\Documents\\Coding\\Discord Projects\\cryptrade-notif-bot\\CryptradeNotif\\CryptradeNotif\\CryptradeNotif.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\icond\\.nuget\\packages\\discord.net.websocket\\2.3.1\\discord.net.websocket.2.3.1.nupkg.sha512",
     "C:\\Users\\icond\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0-preview.3.21201.4\\microsoft.extensions.configuration.6.0.0-preview.3.21201.4.nupkg.sha512",
     "C:\\Users\\icond\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0-preview.3.21201.4\\microsoft.extensions.configuration.abstractions.6.0.0-preview.3.21201.4.nupkg.sha512",
+    "C:\\Users\\icond\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\6.0.0-preview.3.21201.4\\microsoft.extensions.configuration.environmentvariables.6.0.0-preview.3.21201.4.nupkg.sha512",
     "C:\\Users\\icond\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\6.0.0-preview.3.21201.4\\microsoft.extensions.configuration.fileextensions.6.0.0-preview.3.21201.4.nupkg.sha512",
     "C:\\Users\\icond\\.nuget\\packages\\microsoft.extensions.configuration.json\\6.0.0-preview.3.21201.4\\microsoft.extensions.configuration.json.6.0.0-preview.3.21201.4.nupkg.sha512",
     "C:\\Users\\icond\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0-preview.3.21201.4\\microsoft.extensions.dependencyinjection.6.0.0-preview.3.21201.4.nupkg.sha512",

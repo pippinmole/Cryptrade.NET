@@ -17,12 +17,11 @@ namespace CryptradeNotif {
 
         public Program() {
             // create the configuration
-            var builder = new ConfigurationBuilder()
+            _config = new ConfigurationBuilder()
                 .SetBasePath(AppContext.BaseDirectory)
-                .AddJsonFile(path: "config.json");
-
-            // build the configuration and assign to _config          
-            _config = builder.Build();
+                .AddJsonFile(path: "config.json")
+                .AddEnvironmentVariables()
+                .Build();
         }
 
         public async Task MainAsync() {

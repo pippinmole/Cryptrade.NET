@@ -67,6 +67,10 @@
               "target": "Package",
               "version": "[6.0.0-preview.3.21201.4, )"
             },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.4, )"
+            },
             "Microsoft.Extensions.Configuration.FileExtensions": {
               "target": "Package",
               "version": "[6.0.0-preview.3.21201.4, )"
