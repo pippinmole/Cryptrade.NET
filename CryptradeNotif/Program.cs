@@ -14,7 +14,6 @@ namespace CryptradeNotif {
         private DiscordSocketClient _client;
 
         private static void Main(string[] args) => new Program().MainAsync().GetAwaiter().GetResult();
-
         
         public Program() {
             // create the configuration
@@ -47,6 +46,8 @@ namespace CryptradeNotif {
             await services.GetRequiredService<CommandHandler>().InitializeAsync();
             services.GetRequiredService<ITokenRequester>();
 
+            Console.WriteLine("helloooooooo");
+            
             await Task.Delay(-1);
         }
 
@@ -58,10 +59,10 @@ namespace CryptradeNotif {
             return new ServiceCollection()
                 .AddSingleton(_config)
                 .AddSingleton<DiscordSocketClient>()
-                .AddSingleton<CommandService>()
                 .AddSingleton<CommandHandler>()
                 .AddSingleton<ITokenRequester, TokenRequester>()
                 .AddSingleton<ITokenWatcher, TokenWatcher>()
+                .AddSingleton<CommandService>()
                 .BuildServiceProvider();
         }
 
