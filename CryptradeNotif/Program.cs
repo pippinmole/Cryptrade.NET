@@ -11,7 +11,6 @@ namespace CryptradeNotif {
     public class Program {
 
         private readonly IConfiguration _config;
-        private DiscordSocketClient _client;
 
         private static void Main(string[] args) => new Program().MainAsync().GetAwaiter().GetResult();
         
@@ -21,6 +20,7 @@ namespace CryptradeNotif {
                 .SetBasePath(AppContext.BaseDirectory)
                 .AddJsonFile(path: "config.json")
                 .AddEnvironmentVariables()
+                .AddUserSecrets<Program>()
                 .Build();
         }
 
@@ -31,7 +31,6 @@ namespace CryptradeNotif {
             // get the client and assign to client 
             // you get the services via GetRequiredService<T>
             var client = services.GetRequiredService<DiscordSocketClient>();
-            _client = client;
 
             // setup logging and the ready event
             client.Log += LogAsync;
