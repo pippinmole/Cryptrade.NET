@@ -1,0 +1,115 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\icond\\Documents\\Coding\\Discord Projects\\cryptrade-notif-bot\\CryptradeNotif\\CryptradeNotif\\CryptradeNotif.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\icond\\Documents\\Coding\\Discord Projects\\cryptrade-notif-bot\\CryptradeNotif\\CryptradeNotif\\CryptradeNotif.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\icond\\Documents\\Coding\\Discord Projects\\cryptrade-notif-bot\\CryptradeNotif\\CryptradeNotif\\CryptradeNotif.csproj",
+        "projectName": "CryptradeNotif",
+        "projectPath": "C:\\Users\\icond\\Documents\\Coding\\Discord Projects\\cryptrade-notif-bot\\CryptradeNotif\\CryptradeNotif\\CryptradeNotif.csproj",
+        "packagesPath": "C:\\Users\\icond\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\icond\\Documents\\Coding\\Discord Projects\\cryptrade-notif-bot\\CryptradeNotif\\CryptradeNotif\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\icond\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/f/umod/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Discord.Net.Core": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Discord.Net.Rest": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Discord.Net.WebSocket": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Discord.Net.Webhook": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.4, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[6.0.0-preview.3.21201.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\icond\\AppData\\Local\\Microsoft\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
