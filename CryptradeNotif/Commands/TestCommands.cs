@@ -74,7 +74,7 @@ namespace CryptradeNotif.Modules {
                 Title = "Watchlist",
                 Description = watchlist.Any()
                     ? string.Join("\n", _tokenWatcher.GetWatchedTokens())
-                    : "No tokens watched"
+                    : "No tokens watched."
             }.WithCurrentTimestamp();;
 
             await this.ReplyAsync(embed: embed.Build());
