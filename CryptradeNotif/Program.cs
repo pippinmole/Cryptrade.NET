@@ -60,6 +60,7 @@ namespace CryptradeNotif {
                 .AddSingleton<ITokenRequester, TokenRequester>()
                 .AddSingleton<ITokenWatcher, TokenWatcher>()
                 .AddSingleton<CommandService>()
+                .AddHttpClient()
                 .BuildServiceProvider();
         }
 
